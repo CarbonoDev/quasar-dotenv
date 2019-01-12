@@ -1,0 +1,28 @@
+{
+  "name": "quasar-dotenv",
+  "version": "1.0.2",
+  "description": "Load .env variables into quasar project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Carbono",
+    "email": "dev@carbonodev.com",
+    "url": "https://carbonodev.com/"
+  },
+  "contributors": [
+    {
+      "name": "Cesar Santana",
+      "url": "https://github.com/blogui91"
+    },
+    {
+      "name": "Marco Rivadeneyra",
+      "url": "https://marcorivm.com/"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0"
+  }
+}
