@@ -1,6 +1,6 @@
 {
   "name": "quasar-dotenv",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Load .env variables into quasar project",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,10 @@
       "url": "https://marcorivm.com/"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarbonoDev/quasar-dotenv"
+  },
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.2.0"
