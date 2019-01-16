@@ -11,7 +11,7 @@ module.exports = {
         const parsedEnv = config(configOptions)
         const quasarEnv = {}
         for (const key in parsedEnv) {
-            if (baseEnv.hasOwnProperty(key)) {
+            if (parsedEnv.hasOwnProperty(key)) {
                 quasarEnv[key] = JSON.stringify(parsedEnv[key])
             }
         }
