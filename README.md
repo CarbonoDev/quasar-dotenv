@@ -44,7 +44,8 @@ That's it.
 
 `process.env` now has the keys and values you defined in your `.env` file.
 
-> Currently it doesn't update instantly like hot reloading does, so update your `.env` before run your `quasar dev` command.
+## About Hot Reloading
+If you make any changes to your `.env` file or system variables you will need to run `quasar dev` or `quasar build` see the updated values.
 
 ## Working with CI/CD enviroments (or reading from system enviroment variables)
 
