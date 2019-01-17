@@ -44,6 +44,8 @@ That's it.
 
 `process.env` now has the keys and values you defined in your `.env` file.
 
+> Currently it doesn't update instantly like hot reloading does, so update your `.env` before run your `quasar dev` command.
+
 ## Working with CI/CD enviroments (or reading from system enviroment variables)
 
 In some scenarios like when working in a CI enviroment where we might want to load enviroment variables from the system variables instead of an `.env` file. This plugin will handle loading system variables as long as they are present in the `.env.example` file.
