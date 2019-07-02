@@ -1,6 +1,6 @@
 {
   "name": "quasar-dotenv",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Load .env variables into quasar project",
   "main": "index.js",
   "scripts": {
