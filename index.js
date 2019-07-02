@@ -8,7 +8,7 @@ module.exports = {
     config: function (options = {}) {
 
         const configOptions = { ...defaultOptions, ...options }
-        const parsedEnv = config(configOptions)
+        const parsedEnv = config(configOptions).parsed
         const quasarEnv = {}
         for (const key in parsedEnv) {
             if (parsedEnv.hasOwnProperty(key)) {
