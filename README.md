@@ -1,5 +1,13 @@
 # quasar-dotenv
 
+> For v1.0 and above please check
+>
+> https://github.com/quasarframework/app-extension-dotenv
+>
+> And if you are working with a CI env
+>
+> https://github.com/marcorivm/quasar-app-extension-system-environment-variables
+
 Quasar Dotenv is a wrapper around [Dotenv](https://github.com/motdotla/dotenv#readme) which enables reading variables from a .env file and loading them into the Quasar runtime via `process.env`. This according to the [Quasar Guidelines](https://v0-17.quasar-framework.org/guide/app-quasar.conf.js.html#Example-setting-env-for-dev-build)
 
 ## Install
